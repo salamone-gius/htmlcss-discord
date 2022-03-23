@@ -8,3 +8,73 @@
 
 /*---------- COMMONS ----------*/
 /* FONT FAMILY,BUTTONS, COLUMNS SECTION, COLUMNS CREDITS LISTS*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+div.clearfix.row > .logo {
+    float: left;
+    text-align: left;
+}
+
+div.clearfix.row > .button {
+    float: right;
+    text-align: right;
+}
+
+div.clearfix.row > .button, div.clearfix.row > .logo {
+    width: 20%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+button.white {
+    color: black;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+header li {
+    display: inline-block;
+    list-style: none;
+    padding: 9px 33px;
+}
+
+
+
+/*---------- HEADER ----------*/
+header {
+    background-color: #404eed;
+    color: white;
+    /* background-image: url("../img/jumbo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+header nav {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    height: 40px;
+    
+}
+
